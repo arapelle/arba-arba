@@ -9,4 +9,4 @@
 [submodule "wgen"]
 	path = wgen
 	url = https://github.com/arapelle/wgen
-	branch = release/0.1.4
+	branch = release/0.1.5
