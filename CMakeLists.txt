@@ -64,5 +64,5 @@ install(EXPORT ${PROJECT_NAME}
 # Install package
 install_package(${PROJECT_NAME}
                 UNINSTALL_ALL
-                BASIC_PACKAGE_CONFIG_FILE
+                INPUT_PACKAGE_CONFIG_FILE ${PROJECT_NAME}-config.cmake.in
                 EXPORT_NAMES ${PROJECT_NAME})
