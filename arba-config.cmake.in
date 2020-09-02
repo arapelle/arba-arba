@@ -1,0 +1,10 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+find_dependency(strn 0.1.3)
+find_dependency(wgen 0.1.6)
+
+include(${CMAKE_CURRENT_LIST_DIR}/arba.cmake)
+check_required_components(arba)
+
+message(STATUS "Found package @PROJECT_NAME@ @PROJECT_VERSION@")
