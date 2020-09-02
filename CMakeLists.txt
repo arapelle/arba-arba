@@ -29,6 +29,7 @@ add_library(${PROJECT_NAME}-static INTERFACE)
 
 # List of sub-projects:
 set(libraries
+    core
     strn
     wgen
     )

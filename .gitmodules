@@ -2,6 +2,10 @@
 	path = cmake/cmtk
 	url = https://github.com/arapelle/cmtk
 	branch = release/0.3.0
+[submodule "core"]
+	path = core
+	url = https://github.com/arapelle/core
+	branch = release/0.1.0
 [submodule "strn"]
 	path = strn
 	url = https://github.com/arapelle/strn
