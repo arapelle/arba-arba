@@ -3,7 +3,7 @@
 *arba* is a project embedding several independent C++ library projects:
 
 - [`strn`](https://github.com/arapelle/strn) 0.1.3
-- [`wgen`](https://github.com/arapelle/wgen) 0.1.5
+- [`wgen`](https://github.com/arapelle/wgen) 0.1.6
 
 See [task board](https://app.gitkraken.com/glo/board/X05bij2bBQARucHF) for future updates and features.
 
