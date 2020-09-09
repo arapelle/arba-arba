@@ -3,7 +3,7 @@
 include(CMakeFindDependencyMacro)
 find_dependency(core 0.3.0)
 find_dependency(strn 0.1.4)
-find_dependency(wgen 0.1.6)
+find_dependency(wgen 0.1.7)
 
 include(${CMAKE_CURRENT_LIST_DIR}/arba.cmake)
 check_required_components(arba)
