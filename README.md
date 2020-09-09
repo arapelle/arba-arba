@@ -5,6 +5,8 @@
 - [`core`](https://github.com/arapelle/core) 0.3.1
 - [`strn`](https://github.com/arapelle/strn) 0.1.4
 - [`wgen`](https://github.com/arapelle/wgen) 0.1.7
+- [`cryp`](https://github.com/arapelle/cryp) 0.2.3
+- [`seri`](https://github.com/arapelle/cryp) 0.1.1
 
 See [task board](https://app.gitkraken.com/glo/board/X05bij2bBQARucHF) for future updates and features.
 

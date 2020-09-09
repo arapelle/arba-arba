@@ -15,7 +15,7 @@ set_build_type_if_undefined()
 # C++ PROJECT
 
 project(arba
-        VERSION 0.2.6
+        VERSION 0.3.0
         DESCRIPTION "A set of tiny but useful C++ libraries."
         HOMEPAGE_URL "https://github.com/arapelle/arba"
         LANGUAGES CXX)
@@ -32,6 +32,8 @@ set(libraries
     core
     strn
     wgen
+    cryp
+    seri
     )
 
 # Add sub-projects and link with them:
