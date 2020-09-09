@@ -17,7 +17,7 @@
 [submodule "cryp"]
 	path = cryp
 	url = https://github.com/arapelle/cryp
-	branch = release/0.2.3
+	branch = release/0.2.4
 [submodule "seri"]
 	path = seri
 	url = https://github.com/arapelle/seri/
