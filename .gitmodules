@@ -21,4 +21,4 @@
 [submodule "seri"]
 	path = seri
 	url = https://github.com/arapelle/seri/
-	branch = release/0.1.1
+	branch = release/0.1.2
