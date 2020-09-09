@@ -9,7 +9,7 @@
 [submodule "strn"]
 	path = strn
 	url = https://github.com/arapelle/strn
-	branch = release/0.1.3
+	branch = release/0.1.4
 [submodule "wgen"]
 	path = wgen
 	url = https://github.com/arapelle/wgen
