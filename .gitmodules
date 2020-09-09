@@ -14,3 +14,7 @@
 	path = wgen
 	url = https://github.com/arapelle/wgen
 	branch = release/0.1.7
+[submodule "cryp"]
+	path = cryp
+	url = https://github.com/arapelle/cryp
+	branch = release/0.2.3

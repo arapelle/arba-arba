@@ -32,6 +32,7 @@ set(libraries
     core
     strn
     wgen
+    cryp
     )
 
 # Add sub-projects and link with them:
