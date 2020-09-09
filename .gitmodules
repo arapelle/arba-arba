@@ -1,7 +1,7 @@
 [submodule "cmake/cmtk"]
 	path = cmake/cmtk
 	url = https://github.com/arapelle/cmtk
-	branch = release/0.3.0
+	branch = release/0.4.0
 [submodule "core"]
 	path = core
 	url = https://github.com/arapelle/core
