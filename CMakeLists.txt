@@ -33,6 +33,7 @@ set(libraries
     strn
     wgen
     cryp
+    seri
     )
 
 # Add sub-projects and link with them:
