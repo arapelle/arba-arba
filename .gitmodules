@@ -22,3 +22,7 @@
 	path = seri
 	url = https://github.com/arapelle/seri/
 	branch = release/0.1.2
+[submodule "dirn"]
+	path = dirn
+	url = https://github.com/arapelle/dirn
+	branch = release/0.1.0

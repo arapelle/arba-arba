@@ -34,6 +34,7 @@ set(libraries
     wgen
     cryp
     seri
+    dirn
     )
 
 # Add sub-projects and link with them:
