@@ -36,6 +36,7 @@ set(libraries
     seri
     dirn
     inis
+    math
     )
 
 # Add sub-projects and link with them:

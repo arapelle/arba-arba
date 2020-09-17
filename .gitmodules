@@ -30,3 +30,7 @@
 	path = inis
 	url = https://github.com/arapelle/inis
 	branch = release/0.1.0
+[submodule "math"]
+	path = math
+	url = https://github.com/arapelle/math
+	branch = release/0.1.0
