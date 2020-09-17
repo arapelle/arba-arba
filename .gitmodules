@@ -26,3 +26,7 @@
 	path = dirn
 	url = https://github.com/arapelle/dirn
 	branch = release/0.1.0
+[submodule "inis"]
+	path = inis
+	url = https://github.com/arapelle/inis
+	branch = release/0.1.0

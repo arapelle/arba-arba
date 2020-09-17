@@ -35,6 +35,7 @@ set(libraries
     cryp
     seri
     dirn
+    inis
     )
 
 # Add sub-projects and link with them:
