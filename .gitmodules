@@ -5,7 +5,7 @@
 [submodule "core"]
 	path = core
 	url = https://github.com/arapelle/core
-	branch = release/0.3.2
+	branch = release/0.4.0
 [submodule "strn"]
 	path = strn
 	url = https://github.com/arapelle/strn
