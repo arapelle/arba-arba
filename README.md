@@ -10,6 +10,7 @@
 - [`dirn`](https://github.com/arapelle/dirn) 0.1.0
 - [`inis`](https://github.com/arapelle/inis) 0.1.0
 - [`math`](https://github.com/arapelle/math) 0.3.1
+- [`grid`](https://github.com/arapelle/grid) 0.1.0
 
 See [task board](https://app.gitkraken.com/glo/board/X05bij2bBQARucHF) for future updates and features.
 

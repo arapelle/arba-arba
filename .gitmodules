@@ -34,3 +34,7 @@
 	path = math
 	url = https://github.com/arapelle/math
 	branch = release/0.3.1
+[submodule "grid"]
+	path = grid
+	url = https://github.com/arapelle/grid
+	branch = release/0.1.0
