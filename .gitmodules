@@ -1,11 +1,11 @@
 [submodule "cmake/cmtk"]
 	path = cmake/cmtk
 	url = https://github.com/arapelle/cmtk
-	branch = release/0.4.1
+	branch = release/0.4.2
 [submodule "core"]
 	path = core
 	url = https://github.com/arapelle/core
-	branch = release/0.3.2
+	branch = release/0.4.0
 [submodule "strn"]
 	path = strn
 	url = https://github.com/arapelle/strn
@@ -33,4 +33,8 @@
 [submodule "math"]
 	path = math
 	url = https://github.com/arapelle/math
-	branch = release/0.2.0
+	branch = release/0.3.1
+[submodule "grid"]
+	path = grid
+	url = https://github.com/arapelle/grid
+	branch = release/0.1.0
