@@ -33,4 +33,4 @@
 [submodule "math"]
 	path = math
 	url = https://github.com/arapelle/math
-	branch = release/0.2.0
+	branch = release/0.3.1
