@@ -38,3 +38,7 @@
 	path = grid
 	url = https://github.com/arapelle/grid
 	branch = release/0.1.0
+[submodule "evnt"]
+	path = evnt
+	url = https://github.com/arapelle/evnt
+	branch = release/0.1.0
