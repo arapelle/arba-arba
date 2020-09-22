@@ -39,6 +39,7 @@ set(libraries
     math
     grid
     evnt
+    vlfs
     )
 
 # Add sub-projects and link with them:

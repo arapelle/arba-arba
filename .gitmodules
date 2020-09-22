@@ -42,3 +42,7 @@
 	path = evnt
 	url = https://github.com/arapelle/evnt
 	branch = release/0.1.0
+[submodule "vlfs"]
+	path = vlfs
+	url = https://github.com/arapelle/vlfs
+	branch = release/0.1.0
