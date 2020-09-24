@@ -46,3 +46,7 @@
 	path = vlfs
 	url = https://github.com/arapelle/vlfs
 	branch = release/0.1.0
+[submodule "rsce"]
+	path = rsce
+	url = https://github.com/arapelle/rsce
+	branch = release/0.1.0

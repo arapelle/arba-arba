@@ -40,6 +40,7 @@ set(libraries
     grid
     evnt
     vlfs
+    rsce
     )
 
 # Add sub-projects and link with them:
