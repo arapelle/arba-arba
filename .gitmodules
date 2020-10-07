@@ -50,3 +50,7 @@
 	path = rsce
 	url = https://github.com/arapelle/rsce
 	branch = release/0.1.0
+[submodule "appt"]
+	path = appt
+	url = https://github.com/arapelle/appt
+	branch = release/0.2
