@@ -41,6 +41,7 @@ set(libraries
     evnt
     vlfs
     rsce
+    appt
     )
 
 # Add sub-projects and link with them:
