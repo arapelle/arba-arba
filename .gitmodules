@@ -53,4 +53,4 @@
 [submodule "appt"]
 	path = appt
 	url = https://github.com/arapelle/appt
-	branch = release/0.2
+	branch = release/0.3
