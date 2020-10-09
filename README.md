@@ -14,7 +14,7 @@
 - [`evnt`](https://github.com/arapelle/evnt) 0.1.0
 - [`vlfs`](https://github.com/arapelle/vlfs) 0.1.0
 - [`rsce`](https://github.com/arapelle/rsce) 0.1.0
-- [`appt`](https://github.com/arapelle/appt) 0.3
+- [`appt`](https://github.com/arapelle/appt) 0.4
 
 See [task board](https://app.gitkraken.com/glo/board/X05bij2bBQARucHF) for future updates and features.
 
@@ -29,6 +29,7 @@ Binaries:
 
 Libraries:
 
+- [spdlog](https://github.com/gabime/spdlog) 1.8 or later
 - [Google Test](https://github.com/google/googletest) 1.10 or later (only for testing)
 
 ## Clone
