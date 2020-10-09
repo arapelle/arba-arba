@@ -14,7 +14,7 @@
 - [`evnt`](https://github.com/arapelle/evnt) 0.1.0
 - [`vlfs`](https://github.com/arapelle/vlfs) 0.1.0
 - [`rsce`](https://github.com/arapelle/rsce) 0.1.0
-- [`appt`](https://github.com/arapelle/appt) 0.4
+- [`appt`](https://github.com/arapelle/appt) 0.5
 
 See [task board](https://app.gitkraken.com/glo/board/X05bij2bBQARucHF) for future updates and features.
 
