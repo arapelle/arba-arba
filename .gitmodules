@@ -37,7 +37,7 @@
 [submodule "grid"]
 	path = grid
 	url = https://github.com/arapelle/grid
-	branch = release/0.1.0
+	branch = release/0.2
 [submodule "evnt"]
 	path = evnt
 	url = https://github.com/arapelle/evnt
