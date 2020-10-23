@@ -1,0 +1,66 @@
+digraph G 
+{
+#  rankdir = LR;
+  graph [fontname = "helvetica"];
+  node [fontname = "monospace";fontsize=13];
+  edge [fontname = "helvetica"];
+  label = Dependencies;
+  node [style=radial, fillcolor="white:lightgreen"]
+
+  subgraph cluster_arba
+  {
+    label = arba;
+    fontcolor=black
+
+    subgraph cluster_base
+    {
+      color = lightgrey;
+      label = base;
+      labelloc="b";
+      core;strn;math;seri;
+    }
+
+    subgraph cluster_other
+    {
+      color = lightgrey;
+      label = utility;
+      color = lightgrey;
+      grid;cryp;wgen;dirn;inis;
+    }
+
+    subgraph cluster_tools
+    {
+      color = lightgrey;
+      label = application;
+      rsce;evnt;vlfs;appt;
+    }
+  }
+
+  subgraph cluster_external
+  {
+    fontcolor=black
+    label = external;
+    labelloc="b";
+    node [style=radial, fillcolor="white:lightgrey"];
+    spdlog;TBB;
+  }
+
+  appt -> evnt
+  appt -> rsce
+  appt -> spdlog
+
+  rsce -> vlfs
+
+  vlfs -> strn
+  wgen -> strn
+
+  grid -> math
+#  grid -> dirn
+
+  math -> core
+
+  seri -> core
+
+  cryp -> core
+  cryp -> TBB [style=dashed;]
+}
