@@ -1,7 +1,7 @@
 @PACKAGE_INIT@
 
 include(CMakeFindDependencyMacro)
-find_dependency(core 0.6)
+find_dependency(core 0.7)
 find_dependency(strn 0.1.4)
 find_dependency(wgen 0.1.7)
 find_dependency(cryp 0.2.4)
