@@ -15,7 +15,7 @@ set_build_type_if_undefined()
 # C++ PROJECT
 
 project(arba
-        VERSION 0.23
+        VERSION 0.24
         DESCRIPTION "A set of tiny but useful C++ libraries."
         HOMEPAGE_URL "https://github.com/arapelle/arba"
         LANGUAGES CXX)
