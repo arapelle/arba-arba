@@ -4,10 +4,10 @@
 
 | library                                    | version | library                                    | version | library                                    | version |
 | ------------------------------------------ | ------- | ------------------------------------------ | ------- | ------------------------------------------ | ------- |
-| [`core`](https://github.com/arapelle/core) | 0.7     | [`wgen`](https://github.com/arapelle/wgen) | 0.1.7   | [`vlfs`](https://github.com/arapelle/vlfs) | 0.1.0   |
+| [`core`](https://github.com/arapelle/core) | 0.8     | [`wgen`](https://github.com/arapelle/wgen) | 0.1.7   | [`vlfs`](https://github.com/arapelle/vlfs) | 0.1.0   |
 | [`strn`](https://github.com/arapelle/strn) | 0.1.4   | [`dirn`](https://github.com/arapelle/dirn) | 0.1.0   | [`rsce`](https://github.com/arapelle/rsce) | 0.1.0   |
 | [`math`](https://github.com/arapelle/math) | 0.3.1   | [`grid`](https://github.com/arapelle/grid) | 0.2     | [`evnt`](https://github.com/arapelle/evnt) | 0.2     |
-| [`seri`](https://github.com/arapelle/seri) | 0.1.2   | [`inis`](https://github.com/arapelle/inis) | 0.1.0   | [`appt`](https://github.com/arapelle/appt) | 0.9     |
+| [`seri`](https://github.com/arapelle/seri) | 0.1.2   | [`inis`](https://github.com/arapelle/inis) | 0.1.0   | [`appt`](https://github.com/arapelle/appt) | 0.11    |
 |                                            |         | [`cryp`](https://github.com/arapelle/cryp) | 0.2.4   |                                            |         |
 
 <img src=".doc_rsc/graph.svg" style="zoom:75%;" />
