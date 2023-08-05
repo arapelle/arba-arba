@@ -1,0 +1,22 @@
+
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+find_dependency(arba-core 0.14.0)
+find_dependency(arba-strn 0.2.0)
+find_dependency(arba-seri 0.4.0)
+find_dependency(arba-math 0.4.0)
+find_dependency(arba-grid 0.3.0)
+find_dependency(arba-wgen 0.2.0)
+find_dependency(arba-dirn 0.2.0)
+find_dependency(arba-inis 0.2.0)
+find_dependency(arba-cryp 0.3.0)
+find_dependency(arba-vlfs 0.2.0)
+find_dependency(arba-rsce 0.2.0)
+find_dependency(arba-evnt 0.3.0)
+find_dependency(arba-appt 0.12.0)
+
+include(${CMAKE_CURRENT_LIST_DIR}/@PROJECT_NAME@-targets.cmake)
+check_required_components(@PROJECT_NAME@-targets)
+
+message(STATUS "Found package @PROJECT_NAME@ @PROJECT_VERSION@")

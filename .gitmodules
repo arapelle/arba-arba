@@ -1,56 +1,56 @@
-[submodule "cmake/cmtk"]
-	path = cmake/cmtk
-	url = https://github.com/arapelle/cmtk
-	branch = release/0.4.2
-[submodule "core"]
-	path = core
-	url = https://github.com/arapelle/core
-	branch = release/0.8
-[submodule "strn"]
-	path = strn
-	url = https://github.com/arapelle/strn
-	branch = release/0.1.4
-[submodule "wgen"]
-	path = wgen
-	url = https://github.com/arapelle/wgen
-	branch = release/0.1.7
-[submodule "cryp"]
-	path = cryp
-	url = https://github.com/arapelle/cryp
-	branch = release/0.2.4
-[submodule "seri"]
-	path = seri
-	url = https://github.com/arapelle/seri/
-	branch = release/0.1.2
-[submodule "dirn"]
-	path = dirn
-	url = https://github.com/arapelle/dirn
-	branch = release/0.1.0
-[submodule "inis"]
-	path = inis
-	url = https://github.com/arapelle/inis
-	branch = release/0.1.0
-[submodule "math"]
-	path = math
-	url = https://github.com/arapelle/math
-	branch = release/0.3.1
-[submodule "grid"]
-	path = grid
-	url = https://github.com/arapelle/grid
-	branch = release/0.2
-[submodule "evnt"]
-	path = evnt
-	url = https://github.com/arapelle/evnt
-	branch = release/0.2
-[submodule "vlfs"]
-	path = vlfs
-	url = https://github.com/arapelle/vlfs
-	branch = release/0.1.0
-[submodule "rsce"]
-	path = rsce
-	url = https://github.com/arapelle/rsce
-	branch = release/0.1.0
-[submodule "appt"]
-	path = appt
-	url = https://github.com/arapelle/appt
-	branch = release/0.11
+[submodule "cmtk"]
+	path = external/cmake/cmtk
+	url = https://github.com/arapelle/cmtk.git
+	branch = release/0.10.0
+[submodule "arba-core"]
+	path = arba-core
+	url = https://github.com/arapelle/arba-core.git
+	branch = release/0.14.0
+[submodule "arba-strn"]
+	path = arba-strn
+	url = https://github.com/arapelle/arba-strn.git
+	branch = release/0.2.0
+[submodule "arba-seri"]
+	path = arba-seri
+	url = https://github.com/arapelle/arba-seri.git
+	branch = release/0.4.0
+[submodule "arba-math"]
+	path = arba-math
+	url = https://github.com/arapelle/arba-math.git
+	branch = release/0.4.0
+[submodule "arba-grid"]
+	path = arba-grid
+	url = https://github.com/arapelle/arba-grid.git
+	branch = release/0.3.0
+[submodule "arba-wgen"]
+	path = arba-wgen
+	url = https://github.com/arapelle/arba-wgen.git
+	branch = release/0.2.0
+[submodule "arba-dirn"]
+	path = arba-dirn
+	url = https://github.com/arapelle/arba-dirn.git
+	branch = release/0.2.0
+[submodule "arba-inis"]
+	path = arba-inis
+	url = https://github.com/arapelle/arba-inis.git
+	branch = release/0.2.0
+[submodule "arba-cryp"]
+	path = arba-cryp
+	url = https://github.com/arapelle/arba-cryp.git
+	branch = release/0.3.0
+[submodule "arba-vlfs"]
+	path = arba-vlfs
+	url = https://github.com/arapelle/arba-vlfs.git
+	branch = release/0.2.0
+[submodule "arba-rsce"]
+	path = arba-rsce
+	url = https://github.com/arapelle/arba-rsce.git
+	branch = release/0.2.0
+[submodule "arba-evnt"]
+	path = arba-evnt
+	url = https://github.com/arapelle/arba-evnt.git
+	branch = release/0.3.0
+[submodule "arba-appt"]
+	path = arba-appt
+	url = https://github.com/arapelle/arba-appt.git
+	branch = release/0.12.0

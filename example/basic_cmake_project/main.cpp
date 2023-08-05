@@ -1,10 +1,11 @@
-#include <core/version.hpp>
-#include <core/uuid.hpp>
-#include <strn/version.hpp>
-#include <strn/string64.hpp>
-#include <strn/io.hpp>
-#include <wgen/version.hpp>
-#include <wgen/default_syllabary.hpp>
+#include <arba/arba/version.hpp>
+#include <arba/core/version.hpp>
+#include <arba/core/uuid.hpp>
+#include <arba/strn/version.hpp>
+#include <arba/strn/string64.hpp>
+#include <arba/strn/io.hpp>
+#include <arba/wgen/version.hpp>
+#include <arba/wgen/default_syllabary.hpp>
 #include <iostream>
 #include <cstdlib>
 
