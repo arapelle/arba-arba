@@ -34,10 +34,6 @@
 	path = grid
 	url = https://github.com/arapelle/grid
 	branch = release/0.2
-[submodule "evnt"]
-	path = evnt
-	url = https://github.com/arapelle/evnt
-	branch = release/0.2
 [submodule "vlfs"]
 	path = vlfs
 	url = https://github.com/arapelle/vlfs
@@ -54,3 +50,7 @@
 	path = external/cmake/cmtk
 	url = https://github.com/arapelle/cmtk.git
 	branch = release/0.10.0
+[submodule "evnt"]
+	path = evnt
+	url = https://github.com/arapelle/evnt.git
+	branch = release/0.2.0
