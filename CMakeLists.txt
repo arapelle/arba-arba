@@ -31,10 +31,13 @@ trioption(BUILD_${PROJECT_NAME}-static "Indicates if we build a STATIC library."
 trioption(BUILD_${PROJECT_NAME}_TESTS "Build ${PROJECT_NAME} tests or not." OFF)
 trioption(BUILD_${PROJECT_NAME}_EXAMPLES "Build ${PROJECT_NAME} examples or not." OFF)
 
-if(BUILD_${PROJECT_NAME})
+if(BUILD_${PROJECT_NAME} STREQUAL OFF AND BUILD_${PROJECT_NAME}-static STREQUAL OFF)
+    message(FATAL_ERROR "You did not choose which target(s) to build (SHARED, STATIC).")
+endif()
+if(NOT BUILD_${PROJECT_NAME} STREQUAL OFF)
     add_library(${PROJECT_NAME} INTERFACE)
 endif()
-if(BUILD_${PROJECT_NAME}-static)
+if(NOT BUILD_${PROJECT_NAME}-static STREQUAL OFF)
     add_library(${PROJECT_NAME}-static INTERFACE)
 endif()
 
@@ -43,7 +46,20 @@ generate_version_macro_header(generated_version_header
                               ${project_namespace}_${project_base_name}
                               ${project_namespace}/${project_base_name}/version.hpp)
 
-target_sources(${PROJECT_NAME} PUBLIC FILE_SET HEADERS BASE_DIRS include ${CMAKE_CURRENT_BINARY_DIR}/include FILES ${generated_version_header})
+if(TARGET ${PROJECT_NAME})
+    target_sources(${PROJECT_NAME} PUBLIC
+        FILE_SET HEADERS
+        BASE_DIRS include ${CMAKE_CURRENT_BINARY_DIR}/include
+        FILES ${generated_version_header}
+    )
+endif()
+if(TARGET ${PROJECT_NAME}-static)
+    target_sources(${PROJECT_NAME}-static PUBLIC
+        FILE_SET HEADERS
+        BASE_DIRS include ${CMAKE_CURRENT_BINARY_DIR}/include
+        FILES ${generated_version_header}
+    )
+endif()
 
 ### Add sub-projects and link with them:
 set(libraries
@@ -64,11 +80,20 @@ set(libraries
 
 foreach(library ${libraries})
     add_subdirectory(${project_namespace}-${library})
-    if(TARGET ${project_namespace}-${library})
-        target_link_libraries(${PROJECT_NAME} INTERFACE ${project_namespace}-${library})
+    if(TARGET ${PROJECT_NAME})
+        if(TARGET ${project_namespace}-${library})
+            target_link_libraries(${PROJECT_NAME} INTERFACE ${project_namespace}-${library})
+        endif()
     endif()
-    if(TARGET ${project_namespace}-${library}-static)
-        target_link_libraries(${PROJECT_NAME}-static INTERFACE ${project_namespace}-${library}-static)
+    if(TARGET ${PROJECT_NAME}-static)
+        if(TARGET ${project_namespace}-${library}-static)
+            target_link_libraries(${PROJECT_NAME}-static INTERFACE ${project_namespace}-${library}-static)
+        elseif(TARGET ${project_namespace}-${library})
+            get_target_property(target_type ${project_namespace}-${library} TYPE)
+            if (target_type STREQUAL "INTERFACE_LIBRARY")
+                target_link_libraries(${PROJECT_NAME}-static INTERFACE ${project_namespace}-${library})
+            endif ()
+        endif()
     endif()
 endforeach()
 
