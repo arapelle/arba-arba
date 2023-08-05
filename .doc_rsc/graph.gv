@@ -1,4 +1,6 @@
-digraph G 
+# To generate svg: dot -Tsvg graph.gv > graph.svg
+
+digraph G
 {
 #  rankdir = LR;
   graph [fontname = "helvetica"];
