@@ -26,13 +26,17 @@ include(CTest)
 
 ## C++ gathering target
 
-add_library(${PROJECT_NAME} INTERFACE)
-add_library(${PROJECT_NAME}-static INTERFACE)
-
 trioption(BUILD_${PROJECT_NAME} "Indicates if we build a SHARED library." ON)
 trioption(BUILD_${PROJECT_NAME}-static "Indicates if we build a STATIC library." ON)
 trioption(BUILD_${PROJECT_NAME}_TESTS "Build ${PROJECT_NAME} tests or not." OFF)
 trioption(BUILD_${PROJECT_NAME}_EXAMPLES "Build ${PROJECT_NAME} examples or not." OFF)
+
+if(BUILD_${PROJECT_NAME})
+    add_library(${PROJECT_NAME} INTERFACE)
+endif()
+if(BUILD_${PROJECT_NAME}-static)
+    add_library(${PROJECT_NAME}-static INTERFACE)
+endif()
 
 ## Generated/Configured headers:
 generate_version_macro_header(generated_version_header
