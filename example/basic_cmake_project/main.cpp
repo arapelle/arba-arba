@@ -1,3 +1,4 @@
+#include <arba/arba/version.hpp>
 #include <arba/core/version.hpp>
 #include <arba/core/uuid.hpp>
 #include <arba/strn/version.hpp>

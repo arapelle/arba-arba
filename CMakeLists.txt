@@ -79,6 +79,11 @@ install_cpp_library(
 install_library_package(${PROJECT_NAME} INPUT_PACKAGE_CONFIG_FILE cmake/config/package-config.cmake.in)
 install_uninstall_script(${PROJECT_NAME} ALL FILENAME uninstall.cmake)
 
+## Add examples:
+if(BUILD_${PROJECT_NAME}_EXAMPLES)
+    add_subdirectory(example)
+endif()
+
 ## Add tests:
 if(BUILD_${PROJECT_NAME}_TESTS AND BUILD_TESTING)
     add_subdirectory(test)
