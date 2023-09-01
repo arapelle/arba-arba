@@ -16,7 +16,7 @@ set_build_type_ifndef()
 set(PROJECT_NAME "arba-arba")
 set(project_namespace "arba")
 set(project_base_name "arba")
-set(PROJECT_VERSION 0.26.0)
+set(PROJECT_VERSION 0.27.0)
 project(${PROJECT_NAME} VERSION ${PROJECT_VERSION}
     DESCRIPTION "A set of tiny but useful C++ libraries."
     HOMEPAGE_URL "https://github.com/arapelle/arba"
