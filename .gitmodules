@@ -29,7 +29,7 @@
 [submodule "arba-dirn"]
 	path = arba-dirn
 	url = https://github.com/arapelle/arba-dirn.git
-	branch = release/0.2.0
+	branch = release/0.3.0
 [submodule "arba-inis"]
 	path = arba-inis
 	url = https://github.com/arapelle/arba-inis.git
