@@ -5,7 +5,7 @@
 [submodule "arba-core"]
 	path = arba-core
 	url = https://github.com/arapelle/arba-core.git
-	branch = release/0.14.0
+	branch = release/0.18.0
 [submodule "arba-strn"]
 	path = arba-strn
 	url = https://github.com/arapelle/arba-strn.git
