@@ -13,7 +13,7 @@
 [submodule "arba-seri"]
 	path = arba-seri
 	url = https://github.com/arapelle/arba-seri.git
-	branch = release/0.4.0
+	branch = release/0.5.0
 [submodule "arba-math"]
 	path = arba-math
 	url = https://github.com/arapelle/arba-math.git
