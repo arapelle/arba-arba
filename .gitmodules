@@ -54,3 +54,7 @@
 	path = arba-appt
 	url = https://github.com/arapelle/arba-appt.git
 	branch = release/0.12.0
+[submodule "arba-itru"]
+	path = arba-itru
+	url = https://github.com/arapelle/arba-itru.git
+	branch = release/0.1.0
