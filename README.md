@@ -8,7 +8,7 @@
 | [`arba-strn`](https://github.com/arapelle/arba-strn) | 0.2.0   | [`arba-wgen`](https://github.com/arapelle/arba-wgen) | 0.2.0   | [`arba-rsce`](https://github.com/arapelle/arba-rsce) | 0.2.0   |
 | [`arba-seri`](https://github.com/arapelle/arba-seri) | 0.4.0   | [`arba-dirn`](https://github.com/arapelle/arba-dirn) | 0.2.0   | [`arba-evnt`](https://github.com/arapelle/arba-evnt) | 0.3.0   |
 | [`arba-math`](https://github.com/arapelle/arba-math) | 0.4.0   | [`arba-inis`](https://github.com/arapelle/arba-inis) | 0.2.0   | [`arba-appt`](https://github.com/arapelle/arba-appt) | 0.12.0  |
-|                                                      |         | [`arba-cryp`](https://github.com/arapelle/arba-cryp) | 0.3.0   |                                                      |         |
+| [`arba-itru`](https://github.com/arapelle/arba-itru) | 0.1.0   | [`arba-cryp`](https://github.com/arapelle/arba-cryp) | 0.3.0   |                                                      |         |
 
 <img src=".doc_rsc/graph.svg" style="zoom:75%;" />
 
