@@ -65,6 +65,7 @@ endif()
 set(libraries
     core
     strn
+    itru
     wgen
     cryp
     seri
