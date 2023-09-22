@@ -1,6 +1,6 @@
 #include <arba/arba/version.hpp>
 #include <arba/appt/application/program.hpp>
-#include <arba/dirn/directions4.hpp>
+#include <arba/dirn/d2/directions4.hpp>
 #include <iostream>
 
 int main(int argc, char** argv)

@@ -19,7 +19,7 @@ digraph G
       color = lightgrey;
       label = base;
       labelloc="b";
-      core;strn;math;seri;
+      core;strn;math;seri;itru;
     }
 
     subgraph cluster_other
@@ -57,11 +57,10 @@ digraph G
   wgen -> strn
 
   grid -> math
-#  grid -> dirn
 
   math -> core
-
   seri -> core
+  itru -> core
 
   cryp -> core
   cryp -> TBB [style=dashed;]

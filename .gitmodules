@@ -1,11 +1,11 @@
 [submodule "cmtk"]
 	path = external/cmake/cmtk
 	url = https://github.com/arapelle/cmtk.git
-	branch = release/0.10.0
+	branch = release/0.11.0
 [submodule "arba-core"]
 	path = arba-core
 	url = https://github.com/arapelle/arba-core.git
-	branch = release/0.14.0
+	branch = release/0.18.0
 [submodule "arba-strn"]
 	path = arba-strn
 	url = https://github.com/arapelle/arba-strn.git
@@ -13,7 +13,7 @@
 [submodule "arba-seri"]
 	path = arba-seri
 	url = https://github.com/arapelle/arba-seri.git
-	branch = release/0.4.0
+	branch = release/0.5.0
 [submodule "arba-math"]
 	path = arba-math
 	url = https://github.com/arapelle/arba-math.git
@@ -29,7 +29,7 @@
 [submodule "arba-dirn"]
 	path = arba-dirn
 	url = https://github.com/arapelle/arba-dirn.git
-	branch = release/0.2.0
+	branch = release/0.3.0
 [submodule "arba-inis"]
 	path = arba-inis
 	url = https://github.com/arapelle/arba-inis.git
@@ -54,3 +54,7 @@
 	path = arba-appt
 	url = https://github.com/arapelle/arba-appt.git
 	branch = release/0.12.0
+[submodule "arba-itru"]
+	path = arba-itru
+	url = https://github.com/arapelle/arba-itru.git
+	branch = release/0.2.0
